@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252835;
+    font-family: sans-serif
+}
+.texto{
+    background-color:  #394656;
+    padding: 1px;
+    color: #e9e9df;
+    text-align: center;
+
+}
+.frase{
+    background-color: #819298;
+    text-align: center;
+
+}
+
+#logo{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.info {
+    text-align: center;
+}
+
+#btn_insta {
+    background-image: url(../icon/logo_instagram.png);
+    background-color: transparent;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    background-size: 30px 30px;
+    background-position:center;
+}
+
+#btn_youtube {
+    background-image: url(../icon/logo_youtube.png);
+    background-color: transparent;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    background-size: 30px 30px;
+    background-position:center;
+}
+
+#btn_github{
+    background-image: url(../icon/logo_github.png);
+    background-color: transparent;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    background-size: 30px 30px;
+    background-position:center;
+}
+
+#derechos {
+    color: #c1c1c1;
+}
+
+#sobre_mi{
+    background-color: #394656;
+    padding: 1px;
+    color: #e9e9df;
+    text-align: center;
+}
+
+.navegacion {
+    background: #394656;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #819298;
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+
+}
+
+.menu > li a:hover {
+    color: #c1c1c1;
+    transition: all 0.3s;
+}
+
+.submenu {
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    background: #819298;
+    visibility: hidden;
+    align-items: center;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #e9e9df;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+}
+
+.submenu1 {
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    background: #819298;
+    visibility: hidden;
+    align-items: center;
+}
+
+.submenu1 li a {
+    display: block;
+    padding: 15px;
+    color: #e9e9df;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu1 {
+    visibility: visible;
+}
