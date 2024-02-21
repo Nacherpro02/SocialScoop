@@ -21,7 +21,7 @@
     <header>
         <nav class="navegacion">
             <ul class="menu">
-                <li><a href="index.html"></span>Inicio</a></li>
+                <li><a href="index.php"></span>Inicio</a></li>
                 <li><a href="#">Apartados</a>
                     <ul class="submenu1">
                         <li><a href="#">C++</a></li>
