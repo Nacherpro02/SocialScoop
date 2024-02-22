@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,8 +19,8 @@
                 <li><a href="index.php"></span>Inicio</a></li>
                 <li><a href="#">Apartados</a>
                     <ul class="submenu1">
-                        <li><a href="#">C++</a></li>
-                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Recientes</a></li>
+                        <li><a href="#"></a></li>
                         <li><a href="#">HTML</a></li>
                     </ul>
                 </li>
@@ -28,6 +32,14 @@
                 </li>
                 <li><a href="Acerca_de.php">Acerca de</a></li>
                 <li><a href="login_register.php">Iniciar sesión/Registrarse</a></li>
+                <li><a href="">Mi cuenta</a>
+                    <ul class="submenu2">
+                        <li><a href="perfil.php">Mi perfil</a></li>
+                        <li><a href="ajustes_cuenta.php">Ajustes</a></li>
+                        <li><a href="white_black.php">Apariencia</a></li>
+                        <li><a href="php/logout.php">Cerrar sesión</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
@@ -45,5 +57,6 @@
         <button id="btn_youtube"></button>
         <button id="btn_github"></button>
     </div>
+    <link rel="stylesheet" href="css/style.css">
 </body>
 </html>

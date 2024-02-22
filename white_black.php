@@ -1,15 +1,10 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de</title>
-    <link rel="stylesheet" href="css/style_acerca_de.css">
+    <title>Apariencia</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -43,18 +38,12 @@
             </ul>
         </nav>
     </header>
-    <br><br><div class="texto">
-        <h1 id="titulo">SOCIALSCOOP</h1>
-        <h3 id="texto">SocialScoop es una nueva red social revolucionaria creada por el programador
-            Mohammad Nacher Rahman Akter (más informacion sobre él en el apartado de "Sobre mi").
-            Tiene como obejtivo ser una red social abierta al público y con libertad de contenido.
-        </h3>
-    </div>
-    <div class="info">
-        <h5 id="derechos">Todos los derechos reservados</h5>
-        <button id="btn_insta"></button>
-        <button id="btn_youtube"></button>
-        <button id="btn_github"></button>
-    </div>
+    <main>
+        <div class="fondo">
+            <div class="fondo1">
+
+            </div>
+        </div>
+    </main>
 </body>
 </html>

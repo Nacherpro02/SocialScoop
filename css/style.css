@@ -29,7 +29,12 @@ body {
     margin-right: auto;
 }
 
-
+#sobre_mi{
+    background-color: #394656;
+    padding: 1px;
+    color: #e9e9df;
+    text-align: center;
+}
 
 .info {
     text-align: center;
@@ -70,13 +75,6 @@ body {
 
 #derechos {
     color: #c1c1c1;
-}
-
-#sobre_mi{
-    background-color: #394656;
-    padding: 1px;
-    color: #e9e9df;
-    text-align: center;
 }
 
 .navegacion {
@@ -145,5 +143,26 @@ body {
 }
 
 .menu li:hover .submenu1 {
+    visibility: visible;
+}
+
+.submenu2 {
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    background: #819298;
+    visibility: hidden;
+    align-items: center;
+}
+
+.submenu2 li a {
+    display: block;
+    padding: 15px;
+    color: #e9e9df;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu2 {
     visibility: visible;
 }

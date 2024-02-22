@@ -15,7 +15,7 @@
     }else{
         echo '
             <script>
-                alert("El usuario no existe, registrese");
+                alert("El usuario no existe o la contraseña introducida es incorrecta");
                 window.location = "../login_register.php";
             </script>';
         exit;
