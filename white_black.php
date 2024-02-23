@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="css/style_form.css">
+    <title>Apariencia</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js"></script>
 </head>
 <body>
-<header>
+    <header>
         <nav class="navegacion">
             <ul class="menu">
                 <li><a href="index.php"></span>Inicio</a></li>
@@ -31,40 +31,19 @@
                     <ul class="submenu2">
                         <li><a href="perfil.php">Mi perfil</a></li>
                         <li><a href="ajustes_cuenta.php">Ajustes</a></li>
-
-                        <li><a href="apariencia.php">Apariencia</a></li>
-
                         <li><a href="white_black.php">Apariencia</a></li>
-
                         <li><a href="php/logout.php">Cerrar sesión</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="tit_form">
-        <h3>Formulario (Temporalmente deshabilitado)</h3>
-        <h4>(Para preguntas sobre la página)</h4>
-    </div>
-    <div class="formulario">
-        <form action="php/enviar.php" method="post">
-            <label id="name" for="nombre">Nombre:</label><br>
-            <input type="text" name="nombre" id="nombre" required><br><br>
+    <main>
+        <div class="fondo">
+            <div class="fondo1">
 
-            <label id="correo" for="email">Correo electrónico:</label><br>
-            <input type="email" name="email" id="email"><br><br>
-
-            <label id="descripcion" for="mensaje">Descripción:</label><br>
-            <textarea name="mensaje" id="mensaje" cols="50" rows="4" required></textarea><br><br>
-
-            <input type="submit" value="Enviar">
-        </form>
-    </div>
-    <div class="info">
-        <h5 id="derechos">Todos los derechos reservados</h5>
-        <button id="btn_insta"></button>
-        <button id="btn_youtube"></button>
-        <button id="btn_github"></button>
-    </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
