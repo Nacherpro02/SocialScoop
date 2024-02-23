@@ -39,7 +39,7 @@
         </nav>
     </header>
     <div class="fondo">
-        <div class="fondo1">
+        <div id="fondo1">
             <button id="btn_apariencia"></button>
          </div>
     </div>

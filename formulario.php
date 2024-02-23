@@ -31,11 +31,8 @@
                     <ul class="submenu2">
                         <li><a href="perfil.php">Mi perfil</a></li>
                         <li><a href="ajustes_cuenta.php">Ajustes</a></li>
-
                         <li><a href="apariencia.php">Apariencia</a></li>
-
                         <li><a href="white_black.php">Apariencia</a></li>
-
                         <li><a href="php/logout.php">Cerrar sesión</a></li>
                     </ul>
                 </li>
