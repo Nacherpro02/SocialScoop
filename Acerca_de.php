@@ -1,5 +1,10 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +16,11 @@
     <header>
         <nav class="navegacion">
             <ul class="menu">
-                <li><a href="index.html"></span>Inicio</a></li>
+                <li><a href="index.php"></span>Inicio</a></li>
                 <li><a href="#">Apartados</a>
                     <ul class="submenu1">
-                        <li><a href="#">C++</a></li>
-                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Recientes</a></li>
+                        <li><a href="#"></a></li>
                         <li><a href="#">HTML</a></li>
                     </ul>
                 </li>
@@ -27,6 +32,14 @@
                 </li>
                 <li><a href="Acerca_de.php">Acerca de</a></li>
                 <li><a href="login_register.php">Iniciar sesión/Registrarse</a></li>
+                <li><a href="">Mi cuenta</a>
+                    <ul class="submenu2">
+                        <li><a href="perfil.php">Mi perfil</a></li>
+                        <li><a href="ajustes_cuenta.php">Ajustes</a></li>
+                        <li><a href="apariencia.php">Apariencia</a></li>
+                        <li><a href="php/logout.php">Cerrar sesión</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>

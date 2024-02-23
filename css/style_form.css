@@ -79,6 +79,27 @@ body {
     visibility: visible;
 }
 
+.submenu2 {
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    background: #819298;
+    visibility: hidden;
+    align-items: center;
+}
+
+.submenu2 li a {
+    display: block;
+    padding: 15px;
+    color: #e9e9df;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu2 {
+    visibility: visible;
+}
+
 
 .formulario {
     padding: 20px;

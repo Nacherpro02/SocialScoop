@@ -1,16 +1,11 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SocialScoop</title>
+    <title>Apariencia</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
-    <link rel="shortcut icon" href="icon/icon.ico" type="image/x-icon">
+
 </head>
 <body>
     <header>
@@ -43,20 +38,11 @@
             </ul>
         </nav>
     </header>
-    <br><br><div class="texto">
-        <h1>BIENVENIDOS A SOCIALSCOOP </h1>
+    <div class="fondo">
+        <div class="fondo1">
+            <button id="btn_apariencia"></button>
+         </div>
     </div>
-    <div class="frase">
-        <h2>Actualmente en fase beta</h2>
-    </div>
-    <img id="logo" src="icon/icon.png" alt="logo">
-
-    <div class="info">
-        <h5 id="derechos">Todos los derechos reservados</h5>
-        <button id="btn_insta"></button>
-        <button id="btn_youtube"></button>
-        <button id="btn_github"></button>
-    </div>
-    <link rel="stylesheet" href="css/style.css">
+    <script src="js/apariencia.js"></script>
 </body>
 </html>
