@@ -11,6 +11,7 @@
             session_destroy();
             die();
     }
+
     session_destroy();
 
 ?>
@@ -21,9 +22,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SocialScoop</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Bienvenido</h1>
-    <a href="php/logout.php">Cerrar sesión</a>
+<script>
+    var delay = 500;
+
+setTimeout(function() {
+    window.location.replace("perfil.php");
+}, delay);
+</script>
 </body>
 </html>

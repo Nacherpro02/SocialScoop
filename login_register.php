@@ -3,7 +3,7 @@
     session_start();
 
     if(isset($_SESSION['usuario'])){
-        header("location:bienvenido.php");
+        header("");
     }
 
 ?>
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/style_login_register.css">
 </head>
 <body>
-<header>
+    <header>
         <nav class="navegacion">
             <ul class="menu">
                 <li><a href="index.php"></span>Inicio</a></li>
@@ -66,22 +66,23 @@
             <div class="contenedor__login-register">
                 <form action="php/login_usuario.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo electrónico" name="correo1">
-                    <input type="password" placeholder="Contraseña" name="password1">
+                    <input type="text" placeholder="Correo electrónico" name="correo1" required>
+                    <input type="password" placeholder="Contraseña" name="password1" required>
                     <button>Entrar</button>
                 </form>
                 <form action="php/registro_usuario.php" method="POST" class="formulario__register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre completo" name="nombre_completo">
-                    <input type="text" placeholder="Correo electrónico" name="correo">
-                    <input type="text" placeholder="Usuario" name="usuario">
-                    <input type="password" placeholder="Contraseña" name="password">
+                    <input type="text" placeholder="Nombre completo" name="nombre_completo" required>
+                    <input type="text" placeholder="Correo electrónico" name="correo" required>
+                    <input type="text" placeholder="Usuario" name="usuario" required>
+                    <input type="password" placeholder="Contraseña" name="password" required>
                     <button>Registrarse</button>
                 </form>
             </div>
         </div>
     </main>
-    <br><br><br><br><br><br><div class="info">
+    <br><br><br><br><br><br>
+    <div class="info">
         <h5 id="derechos">Todos los derechos reservados</h5>
         <button id="btn_insta"></button>
         <button id="btn_youtube"></button>
